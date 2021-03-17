@@ -1,1 +1,4 @@
-console.log("This is my restaurant page")
+import { intro, foodSection} from './home'
+
+intro()
+foodSection()

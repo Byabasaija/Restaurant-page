@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: 'Lato', sans-serif;
+  }
+  
+  img {
+      display: flex;
+      width: 100%;
+  }
+
+  .intro {
+      background-image: url(./assets/img/img1.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 500px;
+      
+  }
+
+  .intro h1 {
+    text-align: center;
+    color: rgb(255, 94, 0);
+    font-size: 8rem;
+  }
+
+  .intro h2 {
+    text-align: center;
+    color: rgb(192, 83, 19);
+    font-style: italic;
+  }
+
+  .foods {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+  }
+
+  .foods img {
+    max-height: 100%;
+  
+  }
+
+  .foods div {
+    margin: 20px;
+  }
