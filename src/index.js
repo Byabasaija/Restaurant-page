@@ -1,4 +1,10 @@
-import { intro, foodSection} from './home'
-
+import { createHeader, createFooter} from './nav'
+import {intro} from './home'
+createHeader()
 intro()
-foodSection()
+createFooter()
+
+
+
+
+

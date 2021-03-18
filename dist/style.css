@@ -5,22 +5,20 @@
   }
   
   body{
+    height: 100vh;
     font-family: 'Lato', sans-serif;
   }
   
-  img {
-      display: flex;
-      width: 100%;
+
+
+  .home-content {
+    background-image: url(./assets/img/img1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
   }
 
-  .intro {
-      background-image: url(./assets/img/img1.jpg);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 500px;
-      
-  }
 
   .intro h1 {
     text-align: center;
@@ -47,4 +45,28 @@
 
   .foods div {
     margin: 20px;
+  }
+
+  .navbar {
+   
+    background: darkslategray;
+  }
+
+  .nav-btn {
+    padding: 3px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .footer {
+    background: darkslategray;
+    
+  }
+
+  .footer span {
+    color: ivory
+  }
+
+  #content {
+    height: 100%;
   }
