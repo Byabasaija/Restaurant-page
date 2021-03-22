@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+  
+    font-family: 'Lato', sans-serif;
+    background-image: url(./assets/img/grill.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+
+  #content {
+    height: 100vh;
+    
+  }
+
+
+  .home-intro h1 {
+    text-align: center;
+    color: rgb(255, 94, 0);
+    font-size: 8rem;
+  }
+
+  .home-intro h2 {
+    text-align: center;
+    color: rgb(192, 83, 19);
+    font-style: italic;
+  }
+
+  .home-intro h3 {
+    color: rgb(255, 156, 43);
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+  }
+
+  .home-intro p {
+    text-align: center;
+    color: azure;
+    font-size: 20px;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+  }
+
+  .menu div img {
+    max-height: 100px;
+  
+  }
+
+  .menu div {
+    margin: 20px;
+  }
+
+  .navbar {
+   
+    background: rgb(90, 88, 88)
+  }
+
+  .nav-btn {
+    padding: 3px;
+    margin-right: 10px;
+    margin-left: 10px;
+  
+  }
+
+  .footer {
+   
+    background: darkslategray;
+    
+  }
+
+  .footer span {
+    color: ivory
+  }
+
+
+  .menu {
+   
+    justify-content: center;
+    column-gap: 10px;
+  }
+
+   .menu h3 {
+     color: ivory;
+     
+   }
+
+
+
+.title {
+  text-align: center;
+  color: rgb(255, 156, 43);
+  text-decoration: underline violet;
+  font-size: 30px;
+}
+
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(249, 243, 250);
+}
+
+
