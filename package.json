@@ -4,7 +4,10 @@
   "description": "building restaurant page",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open" 
   },
   "repository": {
     "type": "git",
@@ -15,6 +18,7 @@
   "bugs": {
     "url": "https://github.com/Byabasaija/Restaurant-page/issues"
   },
+
   "homepage": "https://github.com/Byabasaija/Restaurant-page#readme",
   "devDependencies": {
     "babel-eslint": "10.1.x",
