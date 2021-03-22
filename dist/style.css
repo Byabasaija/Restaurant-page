@@ -7,7 +7,7 @@
   body{
   
     font-family: 'Lato', sans-serif;
-    background-image: url(./assets/img/img1.jpg);
+    background-image: url(./assets/img/grill.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,6 +31,19 @@
     text-align: center;
     color: rgb(192, 83, 19);
     font-style: italic;
+  }
+
+  .home-intro h3 {
+    color: rgb(255, 156, 43);
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+  }
+
+  .home-intro p {
+    text-align: center;
+    color: azure;
+    font-size: 20px;
   }
 
   .menu {
@@ -78,16 +91,24 @@
 
    .menu h3 {
      color: ivory;
+     
    }
+
+
 
 .title {
   text-align: center;
   color: rgb(255, 156, 43);
   text-decoration: underline violet;
+  font-size: 30px;
 }
+
 
 .contact {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: rgb(249, 243, 250);
 }
+
+

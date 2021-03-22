@@ -6,6 +6,15 @@ export function home() {
     h1.textContent = 'Paradise'
     const h2 = section.appendChild(document.createElement('h2'))
     h2.textContent = 'Taste it, Love it!'
+
+    const aboutTitle = section.appendChild(document.createElement('h3'))
+    aboutTitle.classList.add('about-title')
+    aboutTitle.textContent = 'About'
+
+    const aboutContent = section.appendChild(document.createElement('p'))
+    aboutContent.classList.add('about-content')
+    aboutContent.textContent = 'We are number one chicken restaurant in town'
+    
      
 }
 

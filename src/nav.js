@@ -5,29 +5,28 @@ import {createMenu} from './menu'
     const container = document.getElementById('content').appendChild(document.createElement('nav'))
     container.classList.add('navbar')
     const homeButton = container.appendChild(document.createElement('button'))
-    homeButton.classList.add('home-btn')
-    homeButton.textContent = 'Home'
-    document.getElementsByClassName('home-btn').addEventListener('click', home() )
+    homeButton.id = home
+    homeButton.textContent = 'Home'   
     
     const menuButton = container.appendChild(document.createElement('button'))
     menuButton.classList.add('menu-btn')
     menuButton.textContent = 'Menu'
-    document.getElementsByClassName('home-btn').addEventListener('click', createMenu() )
+    menuButton.addEventListener('click', function dispmenu() {
+      createMenu()
+    })
+    
    
     const contactButton = container.appendChild(document.createElement('button'))
     contactButton.classList.add('contact-btn')
     contactButton.textContent = 'Contact'
-    document.getElementsByClassName('contact-btn').addEventListener('click', createContact() )
+    contactButton.addEventListener('click', function dispcontact(){
+      createContact()
+    })
  
   }
   
-  export function createFooter() {
-    const footer = document.getElementById('content').appendChild(document.createElement('footer'));
-    footer.classList.add("footer");
-  
-    const copyright = footer.appendChild(document.createElement('span'));
-    copyright.textContent = "Copyright © 2021 paradise";
 
-  }
+    
+    
 
   
