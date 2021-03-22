@@ -14,13 +14,30 @@ Project is built using Js modules for easy code organization and mentainability.
 - Webpack
 - Linters
 
+## Live demo 
+
+[See Live](http://pascalbyabasaija.me/Restaurant-page/dist/index.html)
+
 ## Getting started
 
-Clone or fork the source code 
+Clone or fork the source code into your local machine
+```
+git clone https://github.com/Byabasaija/Restaurant-page.git
+```
+```cd``` into the cloned directory using
+```
+cd directory-name/
+```
 
-Open the folder where you cloned it into your code editor
+Open the directory in your favorite code editor e.g if your using Vs code
+```
+code .
+```
 
-navigate to ```dist/index.html``` and open in the browser
+Run ``` npm install ``` to install dependences
+
+Navigate to  ``` dist/index.html ``` to run the project.
+
 
 ## Author
 **Pascal Byabasaija**
