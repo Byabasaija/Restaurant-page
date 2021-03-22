@@ -63,13 +63,14 @@
 
   .navbar {
    
-    background: darkslategray;
+    background: rgb(90, 88, 88)
   }
 
   .nav-btn {
     padding: 3px;
     margin-right: 10px;
     margin-left: 10px;
+  
   }
 
   .footer {
