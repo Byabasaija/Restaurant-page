@@ -1,8 +1,13 @@
+
 import { createHeader, createFooter} from './nav'
-import {intro} from './home'
+import { intro} from './home'
+import {createMenu} from './menu'
+import { createContact } from './contact'
 createHeader()
-intro()
-createFooter()
+// intro()
+// createMenu()
+// createContact()
+// createFooter()
 
 
 

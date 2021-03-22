@@ -1,33 +1,24 @@
-
+import { createContact } from './contact'
+import { home } from './home'
+import {createMenu} from './menu'
  export function createHeader() {
     const container = document.getElementById('content').appendChild(document.createElement('nav'))
     container.classList.add('navbar')
     const homeButton = container.appendChild(document.createElement('button'))
-    homeButton.classList.add('nav-btn')
+    homeButton.classList.add('home-btn')
     homeButton.textContent = 'Home'
-    homeButton.addEventListener("click", (e) => {
-        if (e.target.classList.contains("active")) return;
-        setActiveButton(homeButton);
-        loadHome();
-    }); 
-
+    document.getElementsByClassName('home-btn').addEventListener('click', home() )
+    
     const menuButton = container.appendChild(document.createElement('button'))
-    menuButton.classList.add('nav-btn')
+    menuButton.classList.add('menu-btn')
     menuButton.textContent = 'Menu'
-    menuButton.addEventListener("click", (e) => {
-        if (e.target.classList.contains("active")) return;
-        setActiveButton(contactButton);
-        loadMenu();
-    }); 
-
+    document.getElementsByClassName('home-btn').addEventListener('click', createMenu() )
+   
     const contactButton = container.appendChild(document.createElement('button'))
-    contactButton.classList.add('nav-btn')
+    contactButton.classList.add('contact-btn')
     contactButton.textContent = 'Contact'
-    contactButton.addEventListener("click", (e) => {
-        if (e.target.classList.contains("active")) return;
-        setActiveButton(contactButton);
-        loadContact();
-    }); 
+    document.getElementsByClassName('contact-btn').addEventListener('click', createContact() )
+ 
   }
   
   export function createFooter() {
@@ -38,4 +29,5 @@
     copyright.textContent = "Copyright © 2021 paradise";
 
   }
+
   
